@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../cars-preview-card-starter-main/design"
+		},
+		{
+			"path": "../../cars-preview-card-starter-main/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "kebean-cars"
+	}
+}
