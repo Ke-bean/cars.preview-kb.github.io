@@ -1,0 +1,121 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    padding-left: 15em;
+    padding-top: 3em;
+    align-items:center;
+    margin: 0;
+    
+}
+@media only screen and (max-width: 375px) {
+    .container{
+        
+        padding-left:0;
+        padding-top: 3em;
+         margin-right:10em;
+        align-items:center;
+        margin: 0;
+        
+    }
+}
+.container:hover{
+    transform:scale(1.01);
+}
+
+
+.numberone{
+    padding:2em;
+    margin:0;
+    
+    background-color: hsl(31, 77%, 52%);
+    min-height:70vh;
+    
+    
+}
+
+.numbertwo{
+    padding:2em;
+    margin:0;
+    background-color: hsl(184, 100%, 22%);
+    min-height: 70vh;
+    
+    
+    
+}
+
+.numberthree{
+    padding:2em;
+    margin:0;
+    background-color:hsl(179, 100%, 13%);
+    min-height:70vh;
+
+}
+
+h1{
+    padding:1.5em;
+    margin:0em;
+    color:hsl(0, 0%, 95%);
+    font-family:Big Shoulders Display;
+    font-weight: 700;
+    
+}
+p{
+    padding-left: 1.2em;
+    padding-bottom: 1em;
+    padding-bottom:5em;
+    color:hsla(0, 0%, 100%, 0.75);
+    line-height: 1.7em;
+    font-family:Lexend Deca;
+    font-weight:400;
+    text-justify: distribute;
+}
+.ke{
+    background-color: hsl(0, 0%, 95%);
+    padding:1em;
+    margin-bottom:2em;
+    margin-bottom:0.1em;
+    margin-left:2em;
+    border-radius:2em;
+    width:10%;
+    color:hsl(31, 77%, 52%);
+    text-decoration:none;
+    
+}
+.bea{
+    background-color: hsl(0, 0%, 95%);
+    padding:1em;
+    margin-bottom:2em;
+    margin-bottom:0.1em;
+    margin-left:2em;
+    border-radius:2em;
+    width:10%; 
+    color:hsl(184, 100%, 22%); 
+    text-decoration:none;
+}
+.ean{
+    background-color: hsl(0, 0%, 95%);
+    padding:1em;
+    margin-bottom:2em;
+    margin-bottom:0.1em;
+    margin-left:2em;
+    border-radius:2em;
+    width:10%; 
+    color:hsl(179, 100%, 13%); 
+    text-decoration:none;
+}
+.kebean{
+    max-width:100%;
+    height:auto;
+}
